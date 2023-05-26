@@ -1,0 +1,36 @@
+model "KissDanielMark"
+uses "mmxprs"
+
+declarations
+  seprufejek=1..4
+  minosegosztalyok=1..3
+  osszettetel: array(seprufejek, minosegosztalyok) of real
+  raktaron:array(minosegosztalyok) of real
+  nyereseg:array(seprufejek) of real
+  x:array(seprufejek) of mpvar
+end-declarations
+
+osszettetel::[10, 1, 2, 0,
+              5, 5, 2, 2,
+              1,1,0,1]
+
+raktaron::[23800, 26500, 1500]
+
+nyereseg::[280, 200, 120, 80]
+
+!Feladat feltételei és megoldása
+
+forall(j in minosegosztalyok) do
+  sum(i in seprufejek)osszettetel(i,j)*x(i) <= raktaron(j)
+end-do
+
+ossz_nyereseg:=sum(i in seprufejek)nyereseg(i)*x(i)
+maximise(ossz_nyereseg)
+
+writeln("Maximalis nyereseg: ", getobjval, "\n")
+
+
+writeln("Az S-60 seprufejbol", getsol(x(1))*10," db-ot keszitunk\n")
+writeln("Az S-36 seprufejbol", getsol(x(2))*10," db-ot keszitunk\n")
+writeln("Az S-24 seprufejbol", getsol(x(3))*10," db-ot keszitunk\n")
+writeln("Az S-12 seprufejbol", getsol(x(4))*10," db-ot keszitunk\n")
