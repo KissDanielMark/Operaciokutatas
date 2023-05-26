@@ -30,7 +30,7 @@ maximise(ossz_nyereseg)
 writeln("Maximalis nyereseg: ", getobjval, "\n")
 
 
-writeln("Az S-60 seprufejbol", getsol(x(1))*10," db-ot keszitunk\n")
-writeln("Az S-36 seprufejbol", getsol(x(2))*10," db-ot keszitunk\n")
-writeln("Az S-24 seprufejbol", getsol(x(3))*10," db-ot keszitunk\n")
-writeln("Az S-12 seprufejbol", getsol(x(4))*10," db-ot keszitunk\n")
+writeln("Az S-60 seprufejbol ", getsol(x(1))*10," db-ot keszitunk\n")
+writeln("Az S-36 seprufejbol ", getsol(x(2))*10," db-ot keszitunk\n")
+writeln("Az S-24 seprufejbol ", getsol(x(3))*10," db-ot keszitunk\n")
+writeln("Az S-12 seprufejbol ", getsol(x(4))*10," db-ot keszitunk\n")

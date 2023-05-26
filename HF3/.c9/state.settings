@@ -17,8 +17,7 @@
                     "path": "",
                     "className": [
                         "tab2",
-                        "focus",
-                        "running"
+                        "focus"
                     ],
                     "document": {
                         "changed": false,
@@ -26,46 +25,17 @@
                             "timestamp": 1685085490494
                         },
                         "filter": true,
-                        "title": "KissDanielMark.mos - Running",
-                        "tooltip": "KissDanielMark.mos - Running",
+                        "title": "KissDanielMark.mos - Stopped",
+                        "tooltip": "KissDanielMark.mos - Stopped",
                         "output": {
                             "id": "output492020",
-                            "width": 968,
+                            "width": 608,
                             "height": 268,
                             "config": {
                                 "runner": "Mosel",
                                 "command": "KissDanielMark.mos",
                                 "debug": false,
                                 "toolbar": true
-                            },
-                            "running": {
-                                "pid": 4684,
-                                "name": "output492020",
-                                "running": 2,
-                                "runner": [
-                                    {
-                                        "caption": "Mosel",
-                                        "cmd": [
-                                            "/Applications/FICO Xpress/Xpress Workbench.app/Contents/Resources/.c9/node/bin/node",
-                                            "/Applications/FICO Xpress/Xpress Workbench.app/Contents/Resources/.c9/node_modules/mosel-runner/bin/mosel-runner",
-                                            "run",
-                                            "${debug?--debug=6167}",
-                                            "--basedir",
-                                            "$project_path",
-                                            "$file",
-                                            "--stack-trace=20",
-                                            "$args"
-                                        ],
-                                        "cmdCleanup": [
-                                            "true"
-                                        ],
-                                        "debugger": "mosel",
-                                        "debugport": 6167,
-                                        "selector": "\\.mos$",
-                                        "$builtin": true
-                                    }
-                                ],
-                                "debug": false
                             }
                         }
                     },
@@ -104,6 +74,13 @@
         "@regex": "false",
         "@scope": "selection",
         "@wholeword": "false"
+    },
+    "local": {
+        "window": {
+            "@fullscreen": false,
+            "@position": "0:25",
+            "@size": "840:930"
+        }
     },
     "menus": {
         "@minimized": "false"
