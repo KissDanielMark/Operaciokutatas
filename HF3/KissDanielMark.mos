@@ -10,9 +10,10 @@ declarations
   x:array(seprufejek) of mpvar
 end-declarations
 
-osszettetel::[10, 1, 2, 0,
-              5, 5, 2, 2,
-              1,1,0,1]
+osszettetel::[10, 5, 1,
+              1, 5, 1,
+              2, 2, 0,
+              0, 2, 1]
 
 raktaron::[23800, 26500, 1500]
 

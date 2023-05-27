@@ -16,8 +16,7 @@
                     "name": "tab2",
                     "path": "",
                     "className": [
-                        "tab2",
-                        "focus"
+                        "tab2"
                     ],
                     "document": {
                         "changed": false,
@@ -55,7 +54,7 @@
             "@acestatus": 1,
             "@base-step-wizard": 2,
             "@divider": 4,
-            "@document": 5,
+            "@document": 7,
             "@editorswitch": 1,
             "@fico.vdl.attributes-panel": 1,
             "@fico.vdl.palette-panel": 1,
@@ -63,9 +62,9 @@
             "@menu": 3,
             "@menuitem": 8,
             "@pane": 2,
-            "@session": 5,
-            "@tab": 5,
-            "@undoManager": 5,
+            "@session": 7,
+            "@tab": 7,
+            "@undoManager": 7,
             "@welcome": 1
         }
     },
@@ -80,7 +79,7 @@
         "window": {
             "@fullscreen": false,
             "@position": "0:25",
-            "@size": "840:930"
+            "@size": "840:929"
         }
     },
     "menus": {
@@ -94,8 +93,8 @@
     },
     "panecycle": {
         "json()": [
-            "tab2",
-            "tab1"
+            "tab1",
+            "tab2"
         ]
     },
     "panels": {
@@ -149,9 +148,12 @@
             ]
         }
     },
+    "recentfiles": {
+        "json()": []
+    },
     "tabs": {
         "json()": {
-            "focus": "tab2",
+            "focus": "/KissDanielMark.mos",
             "meta": {
                 "accessList": [
                     "tab1"
@@ -164,12 +166,13 @@
                     "name": "tab1",
                     "path": "/KissDanielMark.mos",
                     "className": [
-                        "tab1"
+                        "tab1",
+                        "focus"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1685086091640
+                            "timestamp": 1685162210569
                         },
                         "filter": true,
                         "title": "KissDanielMark.mos",
@@ -187,7 +190,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/KissDanielMark.mos"
+            "/readme.html"
         ]
     },
     "welcome": {
