@@ -16,7 +16,9 @@
                     "name": "tab2",
                     "path": "",
                     "className": [
-                        "tab2"
+                        "tab2",
+                        "focus",
+                        "running"
                     ],
                     "document": {
                         "changed": false,
@@ -24,8 +26,8 @@
                             "timestamp": 1685085490494
                         },
                         "filter": true,
-                        "title": "KissDanielMark.mos - Stopped",
-                        "tooltip": "KissDanielMark.mos - Stopped",
+                        "title": "KissDanielMark.mos - Running",
+                        "tooltip": "KissDanielMark.mos - Running",
                         "output": {
                             "id": "output492020",
                             "width": 608,
@@ -36,6 +38,35 @@
                                 "debug": false,
                                 "toolbar": true,
                                 "name": ""
+                            },
+                            "running": {
+                                "pid": 24703,
+                                "name": "output492020",
+                                "running": 2,
+                                "runner": [
+                                    {
+                                        "caption": "Mosel",
+                                        "cmd": [
+                                            "/Applications/FICO Xpress/Xpress Workbench.app/Contents/Resources/.c9/node/bin/node",
+                                            "/Applications/FICO Xpress/Xpress Workbench.app/Contents/Resources/.c9/node_modules/mosel-runner/bin/mosel-runner",
+                                            "run",
+                                            "${debug?--debug=6167}",
+                                            "--basedir",
+                                            "$project_path",
+                                            "$file",
+                                            "--stack-trace=20",
+                                            "$args"
+                                        ],
+                                        "cmdCleanup": [
+                                            "true"
+                                        ],
+                                        "debugger": "mosel",
+                                        "debugport": 6167,
+                                        "selector": "\\.mos$",
+                                        "$builtin": true
+                                    }
+                                ],
+                                "debug": false
                             }
                         }
                     },
@@ -93,8 +124,8 @@
     },
     "panecycle": {
         "json()": [
-            "tab1",
-            "tab2"
+            "tab2",
+            "tab1"
         ]
     },
     "panels": {
@@ -149,7 +180,28 @@
         }
     },
     "recentfiles": {
-        "json()": []
+        "json()": [
+            {
+                "type": "tab",
+                "name": "tab6",
+                "path": "/valami.mos",
+                "className": [
+                    "tab6"
+                ],
+                "document": {
+                    "changed": false,
+                    "meta": {
+                        "timestamp": 1685162534827
+                    },
+                    "filter": true,
+                    "title": "valami.mos",
+                    "tooltip": "/valami.mos",
+                    "ace": {}
+                },
+                "editorType": "ace",
+                "active": false
+            }
+        ]
     },
     "tabs": {
         "json()": {

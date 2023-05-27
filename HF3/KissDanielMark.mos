@@ -10,6 +10,7 @@ declarations
   x:array(seprufejek) of mpvar
 end-declarations
 
+
 osszettetel::[10, 5, 1,
               1, 5, 1,
               2, 2, 0,
