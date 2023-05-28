@@ -1,0 +1,10 @@
+set TERMEKEK:= Asztal Szek;
+set HONAPOK:= 1 2 3 4 5 6;
+
+param kereslet: Asztal Szek:=
+			  1 120 150
+			  2 120 280
+			  3 130 160
+			  4 140 400
+			  5 170 350
+			  6	160	240;

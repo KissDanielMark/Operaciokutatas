@@ -80,7 +80,7 @@
         "window": {
             "@fullscreen": false,
             "@maximized": false,
-            "@minimized": true,
+            "@minimized": false,
             "@position": "0:25",
             "@size": "840:929"
         }

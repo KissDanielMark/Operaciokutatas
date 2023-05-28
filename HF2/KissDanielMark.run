@@ -1,0 +1,7 @@
+reset;
+
+model KissDanielMark.mod;
+data  KissDanielMark.dat;
+option solver gurobi;
+
+display kereslet;
