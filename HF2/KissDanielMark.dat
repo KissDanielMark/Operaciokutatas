@@ -5,7 +5,7 @@ param kereslet: 1 2 3 4 5 6:=
 		Asztal 120 120 130 140 170 160
 		Szek 150 280 160 400 350 240;
 
-param : max_gyartas_havonta tarolasi_koltseg kezdeti_raktar minimum_tarolando gyartasi_koltsegek := 
-Asztal 150 100 0 30 15000
-Szek 350 40 0 50 10000;
+param : max_gyartas_havonta tarolasi_koltseg kezdeti_raktar minimum_tarolando gyartasi_koltsegek zaro_raktar := 
+Asztal 150 100 0 30 15000 30
+Szek 350 40 0 50 10000 50;
 
