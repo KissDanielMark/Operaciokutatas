@@ -4,4 +4,8 @@ model KissDanielMark.mod;
 data  KissDanielMark.dat;
 option solver gurobi;
 
-display kereslet;
+solve;
+
+display koltseg;
+display termeles;
+display raktarozas;

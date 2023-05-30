@@ -8,3 +8,24 @@ param kereslet: Asztal Szek:=
 			  4 140 400
 			  5 170 350
 			  6	160	240;
+
+param max_gyartas_havonta := 
+Asztal 150
+Szek 350;
+
+param tarolasi_koltseg := 
+Asztal 100
+Szek 40;
+
+param kezdeti_raktar := 
+Asztal 0
+Szek 0;
+
+param minimum_tarolando := 
+Asztal 30
+Szek 50;
+			  
+param gyartasi_koltsegek := 
+Asztal 15000
+Szek 10000;
+
