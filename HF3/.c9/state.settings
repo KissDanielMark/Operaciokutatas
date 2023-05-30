@@ -55,7 +55,7 @@
             "@acestatus": 1,
             "@base-step-wizard": 2,
             "@divider": 4,
-            "@document": 7,
+            "@document": 2,
             "@editorswitch": 1,
             "@fico.vdl.attributes-panel": 1,
             "@fico.vdl.palette-panel": 1,
@@ -63,9 +63,9 @@
             "@menu": 3,
             "@menuitem": 8,
             "@pane": 2,
-            "@session": 7,
+            "@session": 2,
             "@tab": 7,
-            "@undoManager": 7,
+            "@undoManager": 2,
             "@welcome": 1
         }
     },
@@ -147,7 +147,7 @@
     "projecttree": {
         "expanded": {
             "json()": [
-                "/"
+                "/out"
             ]
         }
     },
@@ -196,7 +196,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1685162210569
+                            "timestamp": 1685163052015
                         },
                         "filter": true,
                         "title": "KissDanielMark.mos",
