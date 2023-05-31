@@ -16,8 +16,7 @@
                     "name": "tab2",
                     "path": "",
                     "className": [
-                        "tab2",
-                        "focus"
+                        "tab2"
                     ],
                     "document": {
                         "changed": false,
@@ -96,8 +95,8 @@
     },
     "panecycle": {
         "json()": [
-            "tab2",
-            "tab1"
+            "tab1",
+            "tab2"
         ]
     },
     "panels": {
