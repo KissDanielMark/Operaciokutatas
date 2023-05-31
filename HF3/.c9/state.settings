@@ -16,8 +16,7 @@
                     "name": "tab2",
                     "path": "",
                     "className": [
-                        "tab2",
-                        "focus"
+                        "tab2"
                     ],
                     "document": {
                         "changed": false,
@@ -25,8 +24,8 @@
                             "timestamp": 1685085490494
                         },
                         "filter": true,
-                        "title": "KissDanielMark.mos - Idle",
-                        "tooltip": "KissDanielMark.mos - Idle",
+                        "title": "KissDanielMark.mos - Stopped",
+                        "tooltip": "KissDanielMark.mos - Stopped",
                         "output": {
                             "id": "output492020",
                             "width": 755,
