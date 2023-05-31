@@ -1,7 +1,7 @@
 {
     "console": {
         "@expanded": true,
-        "@height": "300",
+        "@height": 286,
         "@maximized": "false",
         "json()": {
             "meta": {
@@ -16,7 +16,8 @@
                     "name": "tab2",
                     "path": "",
                     "className": [
-                        "tab2"
+                        "tab2",
+                        "focus"
                     ],
                     "document": {
                         "changed": false,
@@ -24,12 +25,12 @@
                             "timestamp": 1685085490494
                         },
                         "filter": true,
-                        "title": "KissDanielMark.mos - Stopped",
-                        "tooltip": "KissDanielMark.mos - Stopped",
+                        "title": "KissDanielMark.mos - Idle",
+                        "tooltip": "KissDanielMark.mos - Idle",
                         "output": {
                             "id": "output492020",
-                            "width": 608,
-                            "height": 268,
+                            "width": 755,
+                            "height": 254,
                             "config": {
                                 "runner": "Mosel",
                                 "command": "KissDanielMark.mos",
@@ -102,6 +103,7 @@
     "panels": {
         "@active-left": "tree",
         "@active-right": "none",
+        "@width-left": 33,
         "commands.panel": {
             "@enabled": "false",
             "@name": "commands.panel"
@@ -146,33 +148,13 @@
     "projecttree": {
         "expanded": {
             "json()": [
-                "/out"
+                "/out",
+                "/"
             ]
         }
     },
     "recentfiles": {
-        "json()": [
-            {
-                "type": "tab",
-                "name": "tab6",
-                "path": "/valami.mos",
-                "className": [
-                    "tab6"
-                ],
-                "document": {
-                    "changed": false,
-                    "meta": {
-                        "timestamp": 1685162534827
-                    },
-                    "filter": true,
-                    "title": "valami.mos",
-                    "tooltip": "/valami.mos",
-                    "ace": {}
-                },
-                "editorType": "ace",
-                "active": false
-            }
-        ]
+        "json()": []
     },
     "tabs": {
         "json()": {
@@ -195,7 +177,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1685163052015
+                            "timestamp": 1685525880401
                         },
                         "filter": true,
                         "title": "KissDanielMark.mos",
