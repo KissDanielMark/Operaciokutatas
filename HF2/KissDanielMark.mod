@@ -9,7 +9,6 @@ param zaro_raktar{TERMEKEK};
 
 param tarolasi_koltseg{TERMEKEK};
 param kezdeti_raktar{TERMEKEK};
-param minimum_tarolando{TERMEKEK};
 param gyartasi_koltsegek{TERMEKEK};
 
 var gyartas {TERMEKEK, HONAPOK} >= 0;

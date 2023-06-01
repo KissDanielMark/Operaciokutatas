@@ -8,5 +8,3 @@ solve;
 
 display koltseg;
 display gyartas, tarolas;
-#display termeles;
-#display raktarozas;
